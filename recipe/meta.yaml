@@ -1,6 +1,6 @@
 {% set name = "sphinx-hoverxref" %}
-{% set version = "1.2.0" %}
-{% set sha256 = "d01a6d2d8d49d1f499926d45c7e3ca70d91d2ca7245ead58301102894cb28f7b" %}
+{% set version = "1.3.0" %}
+{% set sha256 = "e517dab4cb8186da58d78c53781459ee1116ec9c8413580c7dc43e124c5f3177" %}
 
 package:
   name: {{ name|lower }}
