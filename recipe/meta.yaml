@@ -1,6 +1,6 @@
 {% set name = "sphinx-hoverxref" %}
-{% set version = "1.1.3" %}
-{% set sha256 = "3d4d764a253e3dae759de4f5429d4e364e02fc423a455a392b648089be311c0a" %}
+{% set version = "1.2.0" %}
+{% set sha256 = "d01a6d2d8d49d1f499926d45c7e3ca70d91d2ca7245ead58301102894cb28f7b" %}
 
 package:
   name: {{ name|lower }}
@@ -38,8 +38,8 @@ about:
   license_file: LICENSE
   summary: A sphinx extension to show tooltips when hovering over a reference
   description: |
-     sphinx-hoverxref is a Sphinx extension to add tooltips on cross references
-     to documentation with the content of the linked section.
+    sphinx-hoverxref is a Sphinx extension to add tooltips on cross references
+    to documentation with the content of the linked section.
   dev_url: https://github.com/readthedocs/sphinx-hoverxref
   doc_url: https://sphinx-hoverxref.readthedocs.io/
 
