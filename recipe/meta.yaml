@@ -1,13 +1,13 @@
 {% set name = "sphinx-hoverxref" %}
-{% set version = "1.2.0" %}
-{% set sha256 = "d01a6d2d8d49d1f499926d45c7e3ca70d91d2ca7245ead58301102894cb28f7b" %}
+{% set version = "1.4.1" %}
+{% set sha256 = "b5e302ff5ca953ca3f271d9b9f09d92f59158335dfa8e9cfac415d1686a3f27b" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
